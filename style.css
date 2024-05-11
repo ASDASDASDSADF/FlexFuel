@@ -85,7 +85,6 @@ main {
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
-    font-family: "Baloo Thambi", cursive;
     font-size: 5rem;
     user-select: none;
 }
