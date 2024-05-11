@@ -63,30 +63,88 @@ main {
     }
 }
 
-.typewriter h1{
-    color:rgb(255, 255, 255);
-    font-family: 'Cascadia Code', sans-serif;   
-    font-size: 50px;      
-    user-select: none;
-    align-items: flex-start;
-    justify-content: flex-start;
+.letter > span{
+    animation: glow 2s ease-in-out infinite;
 }
 
-.typewriter span{
-    align-items: flex-start;
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px lime, 0 0 50px lime, 0 0 100px lime;
+
+    }
+
+    10%, 90%{
+        color:#000000;
+        text-shadow: none;
+    }
+}
+
+.letter span{
+    color:rgb(255, 255, 255);
+    display: inline-flex;
     justify-content: flex-start;
-    top: -200px;
-    left: -450px;
-    color: rgb(192, 38, 38);
-    font-family: 'Cascadia Code', sans-serif;
-    font-size: 80px;
+    align-items: flex-start;
+    font-family: "Baloo Thambi", cursive;
+    font-size: 5rem;
     user-select: none;
 }
+
+.letter > span{
+    animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px lime, 0 0 50px lime, 0 0 100px lime;
+
+    }
+
+    10%, 90%{
+        color:#ffffff;
+        text-shadow: none;
+    }
+}
+
+.letter > span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.letter > span:nth-child(3){
+    animation-delay: 0.5s;
+}
+.letter > span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.letter > span:nth-child(5){
+    animation-delay: 1s;
+}
+.letter > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+
+.letter > span:nth-child(7){
+    animation-delay: 1.5s;
+}
+
+.letter > span:nth-child(8){
+    animation-delay: 1.75s;
+}
+
+.letter > span:nth-child(9){
+    animation-delay: 2s;
+}
+
+.letter > span:nth-child(10){
+    animation-delay: 2.25s;
+}
+
+
 
 .grid {
     color: #ffffff;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
     max-width: 800px;
@@ -192,6 +250,16 @@ h1{
     text-align: right;
     color: #eaeaea;
 }
+
+.frontle{
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.frontimg {
+    float: left;
+  }
 
 h2 {
 	font-size: 2.5em;
