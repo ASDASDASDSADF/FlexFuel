@@ -81,8 +81,8 @@ main {
 .grid {
     color: #ffffff;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-wrap: wrap;
     max-width: 800px;
 }
