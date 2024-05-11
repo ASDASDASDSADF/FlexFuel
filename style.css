@@ -81,6 +81,10 @@ main {
 }
 
 .letter span{
+    @font-face {
+        font-family: ComicNeueSansID;
+        src: url("comicneuesansid/ComicNeueSansID.ttf");
+    }
     font-family: 'Cascadia Code', sans-serif; 
     color:rgb(255, 255, 255);
     display: inline-flex;
@@ -172,8 +176,8 @@ main {
 .card:hover,
 .card:focus,
 .card:active {
-  color: #f30000;
-  border-color: #f30000;
+  color: #f38200;
+  border-color: #f38200;
 }
 
 .card h2 {
@@ -268,7 +272,7 @@ h1{
   }
 
 h2 {
-	font-size: 3em;
+	font-size: 100px;
     user-select: none;
 }
 
