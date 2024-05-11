@@ -81,11 +81,12 @@ main {
 }
 
 .letter span{
+
     color:rgb(255, 255, 255);
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
-    font-family: 'Cascadia Code', sans-serif; 
+    font-family: 'Comic Sans MS', cursive;
     font-size: 5rem;
     user-select: none;
 }
@@ -151,6 +152,7 @@ main {
 }
 
 .card {
+    user-select: none;
     margin: 1rem;
     padding: 1.5rem;
     text-align: left;
@@ -194,7 +196,7 @@ main {
 } 
 
 :root {
-	--cards: 2;
+	--cards: 3;
 	--cardHeight: 87vh;
 	--cardTopPadding: 1.5em;
 	--cardMargin: 6vw;
@@ -220,7 +222,7 @@ main {
 	--index: 1;
 }
 #card2 {
-	--index: -25;
+	--index: 1;
 }
 
 .carda {
@@ -249,18 +251,22 @@ h1{
     display: flex;
     text-align: right;
     color: #eaeaea;
+    user-select: none;
 }
 
 .frontle{
     justify-content: center;
     align-items: center;
     text-align: right;
+    user-select: none;
 }
 
 .frontimg {
     float: left;
+    user-select: none;
   }
 
 h2 {
 	font-size: 2.5em;
+    user-select: none;
 }
