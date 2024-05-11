@@ -85,6 +85,7 @@ main {
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
+    font-family: 'Cascadia Code', sans-serif; 
     font-size: 5rem;
     user-select: none;
 }
@@ -219,7 +220,7 @@ main {
 	--index: 1;
 }
 #card2 {
-	--index: 1;
+	--index: -25;
 }
 
 .carda {
